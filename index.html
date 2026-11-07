@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="KURD TV — کەناڵە کوردی و جیهانییەکان لە یەک شوێن">
+  <title>KURD TV | تەلەڤزیۆنی ڕاستەوخۆ</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">K</span><span>KURD<span class="accent">TV</span></span></a>
+    <nav><a href="#kurdish">کەناڵە کوردییەکان</a><a href="#world">کەناڵە جیهانییەکان</a></nav>
+    <button id="installBtn" class="install hidden">دامەزراندن</button>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">LIVE TELEVISION</span>
+        <h1>هەموو کەناڵەکانت<br><span>لە یەک شوێن</span></h1>
+        <p>کەناڵە کوردی و جیهانییەکان ببینە، بە ئاسانترین شێوە لە مۆبایل و کۆمپیوتەر.</p>
+        <a class="hero-btn" href="#kurdish">دەستپێکردنی بینین <span>←</span></a>
+      </div>
+      <div class="hero-art"><div class="screen"><div class="screen-glow"></div><div class="play">▶</div><div class="screen-label">KURD TV <b>LIVE</b></div></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div>
+    </section>
+
+    <section class="player-section" id="playerSection">
+      <div class="section-heading"><div><span class="eyebrow">NOW PLAYING</span><h2 id="playerTitle">کەناڵێک هەڵبژێرە</h2></div><span class="live-badge"><i></i> LIVE</span></div>
+      <div class="player-shell">
+        <video id="video" controls playsinline poster="poster.svg"></video>
+        <div id="playerMessage" class="player-message">لە لیستی کەناڵەکان کەناڵێک هەڵبژێرە بۆ دەستپێکردنی پەخش.</div>
+      </div>
+      <div class="player-actions"><span id="playerHint">ئەگەر پەخشەکە لێرە نەکرایەوە، دوگمەی «بینین لە ماڵپەڕی فەرمی» بەکاربهێنە.</span><a id="officialLink" class="official-link" href="#" target="_blank" rel="noopener">بینین لە ماڵپەڕی فەرمی ↗</a></div>
+    </section>
+
+    <section id="kurdish" class="channel-section">
+      <div class="section-heading"><div><span class="eyebrow">KURDISTAN</span><h2>کەناڵە کوردییەکان</h2></div><span class="count" id="kurdCount"></span></div>
+      <div class="channel-grid" id="kurdGrid"></div>
+    </section>
+
+    <section id="world" class="channel-section">
+      <div class="section-heading"><div><span class="eyebrow">AROUND THE WORLD</span><h2>کەناڵە جیهانییەکان</h2></div><span class="count" id="worldCount"></span></div>
+      <div class="channel-grid" id="worldGrid"></div>
+    </section>
+
+    <section class="notice">
+      <strong>تێبینی گرنگ</strong>
+      <p>پەخشی هەر کەناڵێک لە سێرڤەری خاوەن کەناڵەکەوە دێت. هەندێک کەناڵ ڕێگە بە پەخشکردنی ناوخۆیی (Embed) نادەن، یان لینکیان دەگۆڕن؛ لەو حاڵەتەدا لە ماڵپەڕی فەرمییان بکەرەوە. ئەم ماڵپەڕە خۆی هیچ پەخشێک هۆست ناکات و ناوەڕۆکی کەناڵەکان هی خاوەن مافەکانیانە.</p>
+    </section>
+  </main>
+
+  <footer><span>© 2026 KURD TV</span><span>بە خۆڕایی • بێ هەژمار • بێ Database</span></footer>
+  <script src="channels.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
