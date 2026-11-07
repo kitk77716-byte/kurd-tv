@@ -1,0 +1,43 @@
+// Channel list: add/edit channels here. Prefer official stream URLs or official watch pages.
+window.CHANNELS = [
+  // Kurdish channels — priority order
+  {id:"kurdsat1",name:"کوردسات ١",short:"KS1",group:"kurd",type:"page",url:"https://www.kurdsat.tv/ckb/watch-live",note:"ماڵپەڕی فەرمی کوردسات"},
+  {id:"channel8",name:"Channel 8",short:"C8",group:"kurd",type:"hls",url:"https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",official:"https://www.channel8.com/kurmanci/live",note:"پەخشی کوردی"},
+  {id:"k24",name:"Kurdistan 24",short:"K24",group:"kurd",type:"hls",url:"https://d1x82nydcxndze.cloudfront.net/live/index_720p25.m3u8",official:"https://www.kurdistan24.net/",note:"هەواڵ"},
+  {id:"kurdsatnews",name:"Kurdsat News",short:"KN",group:"kurd",type:"hls",url:"https://kurdsat-news.akamaized.net/hls/stream_0.m3u8",official:"https://kurdsatnews.com/",note:"هەواڵ"},
+  {id:"rudaw",name:"Rudaw",short:"RD",group:"kurd",type:"page",url:"https://www.rudaw.net/",note:"ماڵپەڕی فەرمی"},
+  {id:"kurdistantv",name:"Kurdistan TV",short:"KT",group:"kurd",type:"page",url:"https://www.kurdistantv.net/english/live",note:"پەخشی فەرمی"},
+  {id:"kurdmax",name:"Kurdmax",short:"KM",group:"kurd",type:"page",url:"https://www.kurdmax.tv/",note:"ماڵپەڕی فەرمی"},
+  {id:"zagros",name:"Zagros TV",short:"ZG",group:"kurd",type:"page",url:"https://zagros.tv/",note:"ماڵپەڕی فەرمی"},
+  {id:"nrt",name:"NRT",short:"NRT",group:"kurd",type:"page",url:"https://nrttv.com/",note:"ماڵپەڕی فەرمی"},
+  {id:"ava",name:"Ava Media",short:"AVA",group:"kurd",type:"page",url:"https://avamedia.tv/",note:"ماڵپەڕی فەرمی"},
+  {id:"speda",name:"Speda TV",short:"SP",group:"kurd",type:"page",url:"https://www.speda.net/",note:"ماڵپەڕی فەرمی"},
+  {id:"waar",name:"Waar TV",short:"WR",group:"kurd",type:"page",url:"https://waartv.net/",note:"ماڵپەڕی فەرمی"},
+  {id:"zarok",name:"Zarok TV",short:"ZK",group:"kurd",type:"page",url:"https://zaroktv.com.tr/",note:"ماڵپەڕی فەرمی"},
+  {id:"payam",name:"Payam TV",short:"PY",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"gali",name:"Gali Kurdistan",short:"GK",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"knn",name:"KNN",short:"KNN",group:"kurd",type:"page",url:"https://www.knnc.net/",note:"ماڵپەڕی کەناڵ"},
+  {id:"ronahi",name:"Ronahi TV",short:"RN",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"sterk",name:"Sterk TV",short:"ST",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"jin",name:"Jin TV",short:"JIN",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"rojava",name:"Rojava TV",short:"RJ",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"afarin",name:"Afarin TV",short:"AF",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"afarinkids",name:"Afarin Baxcha",short:"AB",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"کەناڵی منداڵان"},
+  {id:"avar",name:"Avar TV",short:"AV",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"mixkurdy",name:"Mixkurdy",short:"MX",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"kirkuk",name:"Kirkuk TV",short:"KK",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"iraqia",name:"Al Iraqia Kurdish",short:"IQ",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"پەخشی کوردی"},
+  {id:"trtkurdi",name:"TRT Kurdî",short:"TRT",group:"kurd",type:"page",url:"https://www.trt.net.tr/kurdi",note:"ماڵپەڕی TRT"},
+  {id:"komala",name:"Komala TV",short:"KO",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+  {id:"4kurd",name:"4Kurd",short:"4K",group:"kurd",type:"page",url:"https://www.kurdistanpost.com/live-tv/",note:"لە لیستی پەخشی کەناڵە کوردییەکان"},
+
+  // International channels — public official streams/pages
+  {id:"aljazeera",name:"Al Jazeera English",short:"AJ",group:"world",type:"page",url:"https://www.aljazeera.com/live/",note:"World news"},
+  {id:"france24",name:"France 24 English",short:"F24",group:"world",type:"page",url:"https://www.france24.com/en/live",note:"International news"},
+  {id:"dw",name:"DW News",short:"DW",group:"world",type:"page",url:"https://www.dw.com/en/live-tv/channel-english",note:"Germany"},
+  {id:"trt",name:"TRT World",short:"TRT",group:"world",type:"page",url:"https://www.trtworld.com/live",note:"Türkiye"},
+  {id:"sky",name:"Sky News",short:"SKY",group:"world",type:"page",url:"https://news.sky.com/watch-live",note:"United Kingdom"},
+  {id:"nhk",name:"NHK World Japan",short:"NHK",group:"world",type:"page",url:"https://www3.nhk.or.jp/nhkworld/en/live/",note:"Japan"},
+  {id:"euronews",name:"Euronews",short:"EU",group:"world",type:"page",url:"https://www.euronews.com/live",note:"Europe"},
+  {id:"nasa",name:"NASA TV",short:"NASA",group:"world",type:"page",url:"https://www.nasa.gov/nasatv/",note:"Science & space"}
+];

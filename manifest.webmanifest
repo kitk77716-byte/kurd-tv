@@ -1,0 +1,11 @@
+{
+  "name": "KURD TV — کەناڵە کوردی و جیهانییەکان",
+  "short_name": "KURD TV",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "ckb",
+  "dir": "rtl",
+  "icons": []
+}
